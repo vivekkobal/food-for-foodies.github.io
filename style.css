@@ -64,6 +64,15 @@ p {
     }
 }
 
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel-caption h1 {
+        font-size: 50px !important;
+    }
+}
+
 .box-image {
     display: inline-block;
     position: relative;
